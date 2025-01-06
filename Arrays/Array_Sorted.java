@@ -3,15 +3,15 @@ package Arrays;
 class Array_Sorted {
     //Brute Force Approach T.C.= O(N^2) S.C. = O(1)
 
-    static boolean isSorted(int arr[], int n){
-        for (int i=0; i<n; i++){
-            for (int j=i+1; j<n; j++){
-                if (arr[i] > arr[j])
-                  return false;
-            }
-        }
-        return true;
-    }
+    // static boolean isSorted(int arr[], int n){
+    //     for (int i=0; i<n; i++){
+    //         for (int j=i+1; j<n; j++){
+    //             if (arr[i] > arr[j])
+    //               return false;
+    //         }
+    //     }
+    //     return true;
+    // }
 
 
     //Optimal Approach  T.C. = O(N)  S.C. = O(1)
