@@ -1,7 +1,7 @@
 package Arrays;
 
 public class Array_Sorted {
-    //Brute Force Approach
+    //Brute Force Approach T.C.= O(N^2) S.C. = O(1)
 
     static boolean isSorted(int arr[], int n){
         for (int i=0; i<n; i++){
